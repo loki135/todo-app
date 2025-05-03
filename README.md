@@ -48,5 +48,3 @@ Live Demo: [todolokz.netlify.app](https://todolokz.netlify.app)
 
 ---
 
-## 📁 Folder Structure
-
