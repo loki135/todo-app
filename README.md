@@ -1,24 +1,52 @@
-Task Master - a todo application (#todolokz.netlify.app)
+# Task Master - A Todo Application  
+Live Demo: [todolokz.netlify.app](https://todolokz.netlify.app)
 
-Allow users to add new tasks with a title and optional description
-Display a list of all tasks with their completion status
-Enable marking tasks as complete/incomplete
-Support deleting individual tasks
-Include a clean, responsive user interface
-Persist tasks using local storage
-Handle empty states appropriately
-Technical requirements:
+---
 
-Use functional components and hooks (useState, useEffect)
-Implement proper event handling for user interactions
-Structure components logically (TodoList, TodoItem, AddTodoForm)
-Add basic CSS styling for visual hierarchy
-Include error handling for edge cases
-Add basic form validation
-Ensure accessibility with proper ARIA labels
-Bonus features:
+## ✨ Features
 
-Add task categories/priorities
-Include task filtering (all, active, completed)
-Add task editing functionality
-Implement drag-and-drop reordering
+- ✅ Add new tasks with title and optional description
+- ✅ Display list of all tasks with completion status
+- ✅ Mark tasks as complete/incomplete
+- ✅ Delete individual tasks
+- ✅ Clean, responsive user interface
+- ✅ Persist tasks using **localStorage**
+- ✅ Handle empty states (e.g., "No tasks yet")
+
+---
+
+## 🛠️ Technical Requirements
+
+- ✅ Built using **functional components** and **React Hooks** (`useState`, `useEffect`)
+- ✅ Proper event handling for all user actions
+- ✅ Logical component structure:
+  - `TodoList`
+  - `TodoItem`
+  - `AddTodoForm`
+- ✅ Basic CSS styling for clarity and hierarchy
+- ✅ Basic form validation
+- ✅ Graceful error handling for edge cases
+- ✅ Accessible with proper ARIA labels
+
+---
+
+## 🚀 Bonus Features
+
+- 🔸 Task categories or priorities
+- 🔸 Filter tasks (All / Active / Completed)
+- 🔸 Edit existing tasks
+- 🔸 Drag-and-drop task reordering
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: React, TypeScript (Vite)
+- **Styling**: Tailwind CSS
+- **State**: useState, useEffect
+- **Persistence**: Browser `localStorage`
+
+---
+
+## 📁 Folder Structure
+
